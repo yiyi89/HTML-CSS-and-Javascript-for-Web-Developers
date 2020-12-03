@@ -1,4 +1,4 @@
-* {
+body {
     box-sizing: border-box;
     font-family: PT Sans;
     background-color: #222C33;
@@ -13,6 +13,38 @@ h1 {
 p {
   padding: 10px;
   margin: 0;
+}
+
+#header-nav {
+  background-color: #222C33;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  color: #FFD14C;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-brand p {
+  color: #FFD14C;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  margin-top: -5px;
+}
+
+.navbar-brand p span {
+  vertical-align: middle;
 }
 
 .container {
